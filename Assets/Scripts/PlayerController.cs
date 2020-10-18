@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     //private variables
 
-    private float speed = 5.0f;
+    [SerializeField] private float speed = 5.0f;
     private float turnSpeed = 25.0f;
     private float horizontalInput;
     private float verticalInput;
